@@ -123,21 +123,74 @@
 
 
 .menu-logo {
-    width: 100px;
+    width: 400px;
     margin: 1.5rem auto 0.5rem;
+    margin-left: -13px;
 }
 
-.menu-title {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
 
 .menu-items {
     list-style: none;
     padding: 0;
-    font-size: 1.1rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5.8rem;
 }
 
 .menu-items li {
-    margin: 1rem 0;
+    margin: 1.4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.6rem;
+}
+
+
+.menu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.menu-top-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    line-height: 1;
+}
+
+
+.menu-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+    margin-bottom: -6px;
+}
+
+.menu-subtitle .line {
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background-color: white;
+    margin: 0 8px;
+}
+
+
+.menu-divider {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin: 1rem auto;
 }

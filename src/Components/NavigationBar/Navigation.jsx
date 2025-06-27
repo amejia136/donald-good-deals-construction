@@ -34,16 +34,28 @@ function Navigation() {
 
             {/* Slide-in menu */}
             <div className={`menu-overlay ${isOpen ? 'open' : ''}`}>
-                <img
-                    src={logo}
-                    alt="logo"
-                    className="menu-logo"
-                    onClick={closeMenu}
-                    style={{ cursor: 'pointer' }}
-                />
-                <h2 className="menu-title">
-                    QUALITY BUILD SOLUTIONS<br /><span>2025</span>
-                </h2>
+                {/* TITLE */}
+                <div className="menu-header">
+                    <h1 className="menu-top-title">
+                        DONALD GOOD DEALS
+                        <div className="menu-subtitle">
+                            <span className="line"></span>
+                            CONSTRUCTION CORP
+                            <span className="line"></span>
+                        </div>
+
+                    </h1>
+                    <img
+                        src={logo}
+                        alt="logo"
+                        className="menu-logo"
+                        onClick={closeMenu}
+                        style={{ cursor: 'pointer' }}
+                    />
+                </div>
+
+                {/* Divider */}
+                <hr className="menu-divider" />
 
                 <ul className="menu-items">
                     <li><i className="fas fa-home"></i> HOME</li>
@@ -52,6 +64,7 @@ function Navigation() {
                     <li><i className="fas fa-phone"></i> CONTACT</li>
                 </ul>
             </div>
+
         </nav>
     );
 
