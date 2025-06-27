@@ -21,7 +21,6 @@
 }
 
 
-
 .navbar-logo {
     width: 110px;
     height: auto;
@@ -117,8 +116,8 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.3); /* optional: dim background */
-    z-index: 999; /* lower than menu-overlay */
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 999;
 }
 
 
@@ -194,3 +193,9 @@
     border: none;
     margin: 1rem auto;
 }
+
+.menu-items li a {
+    color: white;
+    text-decoration: none;
+}
+

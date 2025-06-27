@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navigation.css';
 import logo from '../../Assets/NavigationPics/logo.png';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => setIsOpen(!isOpen);
 
-    const closeMenu = () => setIsOpen(false); // new function to close menu
+    const closeMenu = () => setIsOpen(false);
+
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    }, [isOpen]);
 
     return (
         <nav className="navbar">
@@ -58,11 +67,20 @@ function Navigation() {
                 <hr className="menu-divider" />
 
                 <ul className="menu-items">
-                    <li><i className="fas fa-home"></i> HOME</li>
-                    <li><i className="fas fa-cogs"></i> SERVICES</li>
-                    <li><i className="fas fa-hard-hat"></i> OUR WORK</li>
-                    <li><i className="fas fa-phone"></i> CONTACT</li>
+                    <li onClick={closeMenu}>
+                        <Link to="/"><i className="fas fa-home"></i> HOME</Link>
+                    </li>
+                    <li onClick={closeMenu}>
+                        <Link to="/services"><i className="fas fa-cogs"></i> SERVICES</Link>
+                    </li>
+                    <li onClick={closeMenu}>
+                        <Link to="/work"><i className="fas fa-hard-hat"></i> OUR WORK</Link>
+                    </li>
+                    <li onClick={closeMenu}>
+                        <Link to="/contact"><i className="fas fa-phone"></i> CONTACT</Link>
+                    </li>
                 </ul>
+
             </div>
 
         </nav>

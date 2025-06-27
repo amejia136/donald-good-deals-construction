@@ -1,0 +1,11 @@
+.services-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6f7ff;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 2rem;
+}

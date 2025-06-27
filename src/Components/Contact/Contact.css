@@ -1,0 +1,11 @@
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
