@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 769px) {
+  body {
+    overflow: hidden;
+  }
+}
