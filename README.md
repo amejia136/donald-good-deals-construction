@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Required Dependencies
+
+Before running the project, make sure to install the following:
+
+#### `npm install react-router-dom`
+#### `npm install @fortawesome/fontawesome-free`
+
 ## Available Scripts
 
 In the project directory, you can run:
