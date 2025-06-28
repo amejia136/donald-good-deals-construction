@@ -17,10 +17,14 @@ function Footer() {
                     <p>Monday to Friday<br />8:00 AM - 5:00 PM</p>
                 </div>
 
+                <hr className="footer-divider" />
+
                 <div className="footer-section">
                     <h2 className="footer-title">QUICK MENU</h2>
                     <p>Home<br />Services<br />Our Work</p>
                 </div>
+
+                <hr className="footer-divider" />
 
                 <div className="footer-section">
                     <h2 className="footer-title">SERVICES</h2>
@@ -33,6 +37,8 @@ function Footer() {
                         Flooring
                     </p>
                 </div>
+
+                <hr className="footer-divider" />
 
                 <div className="footer-section">
                     <h2 className="footer-title">CONTACT US</h2>
