@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './Navigation.css';
+import './Navigation.scss';
 import logo from '../../Assets/NavigationPics/logo.png';
 import { Link } from 'react-router-dom';
+
 
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
