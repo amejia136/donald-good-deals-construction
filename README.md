@@ -2,13 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
 ## Required Dependencies
 
 Before running the project, make sure to install the following:
 
 #### `npm install react-router-dom`
 #### `npm install @fortawesome/fontawesome-free`
+
+## Initial Sketches (Before Figma)
+
+These hand-drawn sketches were created to plan the navigation structure and overall layout before building the Figma prototype:
+
+- [Initial Mobile Layout Sketch (PDF)](./src/initial-sketch-for-mobile.pdf)
+- [Initial Website Layout Sketch (PDF)](./src/initial-sketch-for-website.pdf)
+
+## Design Prototype
+
+This website was designed first in Figma:  
+[View Figma Design](https://www.figma.com/design/cunSc70tLeSmWIgF3VacGg/Donald-Good-Deals-Construction-Website?node-id=0-1&t=S3ONlxvp9mgQ2vK0-1)  
+_Use this link to view the layout and structure before reviewing the code._
 
 ## Available Scripts
 
