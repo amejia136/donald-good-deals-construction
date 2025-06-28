@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
 import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
     const isMobile = window.innerWidth <= 768;
@@ -31,6 +32,7 @@ function App() {
                 <Route path="/work" element={<Work />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
+            <Footer />
         </Router>
     );
 }

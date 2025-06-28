@@ -1,0 +1,49 @@
+.footer {
+  background-color: black;
+  color: #ffd700;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Bebas Neue', sans-serif;
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer-logo {
+    width: 160px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section {
+    max-width: 300px;
+
+    .footer-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #ffd700;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: white;
+    }
+  }
+
+  .footer-divider {
+    width: 90%;
+    margin: 2rem auto;
+    border: 0.5px solid #ffd700;
+  }
+
+  .footer-bottom {
+    font-size: 0.9rem;
+    color: white;
+    line-height: 1.5;
+  }
+}
