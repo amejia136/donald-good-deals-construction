@@ -63,5 +63,6 @@
     margin: 0.3rem 0;
     letter-spacing: 1px;
     color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 }
 
