@@ -17,7 +17,9 @@ function Home() {
                     Your browser does not support the video tag.
                 </video>
                 <div className="video-overlay-content">
-                    <h1>Welcome to the Home Page</h1>
+                    <h1 className="video-heading">RESIDENTIAL.</h1>
+                    <h1 className="video-heading">RELIABLE.</h1>
+                    <h1 className="video-heading">RESULTS THAT LAST.</h1>
                 </div>
             </div>
 
