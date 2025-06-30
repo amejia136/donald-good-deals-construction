@@ -44,8 +44,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 5vh;
-    padding-left: 8vw;
+    padding-top: 4vh;
+    padding-left: 6vw;
 }
 
 
@@ -74,7 +74,7 @@
     height: 100%;
     overflow: hidden;
     z-index: -2;
-    filter: blur(5px);
+    filter: blur(3.8px);
     transform: scale(1.02);
 }
 
