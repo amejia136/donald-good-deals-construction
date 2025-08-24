@@ -6,11 +6,14 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer-container">
-                <img
-                    src={logo}
-                    alt="Company Logo"
-                    className="footer-logo"
-                />
+
+                <a href="/" aria-label="Go to Home" target="_self" rel="noreferrer">
+                    <img
+                        src={logo}
+                        alt="Company Logo"
+                        className="footer-logo"
+                    />
+                </a>
 
                 <div className="footer-section">
                     <h2 className="footer-title">OFFICE HOURS</h2>
@@ -21,7 +24,11 @@ function Footer() {
 
                 <div className="footer-section">
                     <h2 className="footer-title">QUICK MENU</h2>
-                    <p>Home<br />Services<br />Our Work</p>
+                    <p>
+                        <a href="/" target="_self" rel="noreferrer">Home</a><br />
+                        <a href="/services" target="_self" rel="noreferrer">Services</a><br />
+                        <a href="/work" target="_self" rel="noreferrer">Our Work</a>
+                    </p>
                 </div>
 
                 <hr className="footer-divider" />

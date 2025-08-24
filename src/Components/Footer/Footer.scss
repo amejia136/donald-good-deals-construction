@@ -52,4 +52,18 @@
     color: white;
     line-height: 1.5;
   }
+
+  /* ===== LINKS ===== */
+  .footer-section a,
+  .footer-section a:visited,
+  .footer-section a:active {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-section a:hover {
+    color: #f5d014;
+    text-decoration: underline;
+  }
+
 }
