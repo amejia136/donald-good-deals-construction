@@ -9,14 +9,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    text-align: center;
   }
 
   .footer-logo {
-    width: 360px;
-    height: auto;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
   }
 
   .footer-section {
