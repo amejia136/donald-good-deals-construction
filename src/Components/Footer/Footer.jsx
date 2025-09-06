@@ -50,9 +50,9 @@ function Footer() {
                 <div className="footer-section">
                     <h2 className="footer-title">CONTACT US</h2>
                     <p>
-                        +1 (631) 123-4567<br />
-                        info@example.com<br />
-                        123 Example Avenue, Huntington, NY 1234
+                        +1 (631) 925-7506<br />
+                        donaldgooddeals@gmail.com<br />
+                        17 Croley St, Huntington, NY 11743
                     </p>
                 </div>
 
@@ -61,7 +61,7 @@ function Footer() {
                 <div className="footer-bottom">
                     <p>
                         © 2025 Donald Good Deals Construction Corp. All rights reserved.<br />
-                        License Number: H123456789 — Suffolk County, NY
+                        License Number: HI-69176 — Suffolk County, NY
                     </p>
                 </div>
             </div>
