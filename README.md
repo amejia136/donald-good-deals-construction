@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Donald Good Deals Construction Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the official website for **Donald Good Deals Construction Corp.**, built with React and deployed on Netlify.
+
+**Live Website:** [https://donaldgooddeals.netlify.app](https://donaldgooddeals.netlify.app)  
+
+> **Note:** This website is designed for **mobile devices only**.  
+> For the best experience, open the link on your phone or resize your browser to a mobile width.
+
+---
+
+## Project Overview
+- Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Designed in [Figma](https://www.figma.com/design/cunSc70tLeSmWIgF3VacGg/Donald-Good-Deals-Construction-Website?node-id=0-1&t=S3ONlxvp9mgQ2vK0-1).
+- Features a responsive mobile navigation, services, contact information, and portfolio showcase.
+
+---
 
 ## Required Dependencies
 
