@@ -215,3 +215,21 @@ $white: white;
     }
 }
 
+/* Sidebar container */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center;     /* Centers horizontally */
+    height: 100vh;           /* Full screen height */
+}
+
+.sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
