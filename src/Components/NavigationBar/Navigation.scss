@@ -188,3 +188,28 @@ $white: white;
     border: none;
     margin: 1rem auto;
 }
+
+.navbar-logo {
+    max-width: 140px;  // keeps it from getting too big
+    height: auto;
+    object-fit: contain;
+}
+
+.menu-logo {
+    max-width: 120px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-logo {
+        max-width: 100px;
+    }
+
+    .menu-logo {
+        max-width: 90px;
+    }
+}
+
