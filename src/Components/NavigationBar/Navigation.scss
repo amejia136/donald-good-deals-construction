@@ -85,24 +85,29 @@ $white: white;
 }
 
 .menu-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* centers vertically */
+    align-items: center;       /* centers horizontally */
+    height: 100vh;             /* full viewport height */
+    text-align: center;
+    background: #000;          /* keep your dark bg */
     position: fixed;
     top: 0;
     right: 0;
-    width: 80%;
-    max-width: 300px;
-    height: 100vh;
-    background: black;
-    color: $white;
+    width: 100%;               /* or adjust if you want narrower */
+    transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
-    transition: transform 0.3s ease;
     z-index: 1000;
-    padding: 2rem 1rem;
-    text-align: center;
-    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.4);
+}
 
-    &.open {
-        transform: translateX(0);
-    }
+.menu-overlay.open {
+    transform: translateX(0);
+}
+
+/* Header section inside menu */
+.menu-header {
+    margin-bottom: 1rem; /* space below title/logo */
 }
 
 .menu-backdrop {
@@ -116,9 +121,8 @@ $white: white;
 }
 
 .menu-logo {
-    width: 400px;
-    margin: 1.5rem auto 0.5rem;
-    margin-left: -13px;
+    width: 80px; /* adjust as needed */
+    margin-top: 1rem;
 }
 
 .menu-items {
@@ -213,23 +217,6 @@ $white: white;
     .menu-logo {
         max-width: 90px;
     }
-}
-
-/* Sidebar container */
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers vertically */
-    align-items: center;     /* Centers horizontally */
-    height: 100vh;           /* Full screen height */
-}
-
-.sidebar-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
 }
 
 
