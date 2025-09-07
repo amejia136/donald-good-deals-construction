@@ -190,10 +190,12 @@ $white: white;
 }
 
 .navbar-logo {
-    max-width: 140px;  // keeps it from getting too big
+    max-width: 140px;
     height: auto;
     object-fit: contain;
+    margin-left: 20px; // adjust this value to move it right
 }
+
 
 .menu-logo {
     max-width: 120px;
