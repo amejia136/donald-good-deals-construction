@@ -11,15 +11,15 @@ import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
 function App() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    const [isMobileDevice, setIsMobileDevice] = useState(false);
 
     useEffect(() => {
-        const handleResize = () => setIsMobile(window.innerWidth <= 768);
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
+        const ua = navigator.userAgent || navigator.vendor || window.opera;
+        const mobileRegex = /android|iphone|ipad|ipod|opera mini|iemobile|mobile/i;
+        setIsMobileDevice(mobileRegex.test(ua));
     }, []);
 
-    if (!isMobile) {
+    if (!isMobileDevice) {
         return (
             <div className="App">
                 <header className="App-header">
