@@ -116,9 +116,20 @@ $white: white;
     z-index: 999;
 }
 
-.menu-logo {
-    width: 280px; /* adjust as needed */
-    margin-top: 1rem;
+.menu-header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Force the logo to grow */
+.menu-overlay .menu-header .menu-logo{
+    width: 140px !important;   /* increase as you like */
+    height: auto !important;
+    max-width: none !important; /* ignore any global img { max-width:100% } caps */
+    max-height: none !important;
+    flex: 0 0 auto;             /* don't let flexbox shrink it */
+    align-self: center;         /* ignore parent alignment quirks */
 }
 
 .menu-items {
