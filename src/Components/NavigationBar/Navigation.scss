@@ -122,14 +122,14 @@ $white: white;
     align-items:center;
 }
 
-/* Force the logo to grow */
+
 .menu-overlay .menu-header .menu-logo{
-    width: 140px !important;   /* increase as you like */
+    width: 240px !important;
     height: auto !important;
-    max-width: none !important; /* ignore any global img { max-width:100% } caps */
+    max-width: none !important;
     max-height: none !important;
-    flex: 0 0 auto;             /* don't let flexbox shrink it */
-    align-self: center;         /* ignore parent alignment quirks */
+    flex: 0 0 auto;
+    align-self: center;
 }
 
 .menu-items {
