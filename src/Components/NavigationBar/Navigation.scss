@@ -99,10 +99,7 @@ $white: white;
     padding: 2rem 1rem;
     text-align: center;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   /* centers vertically */
-    align-items: center;       /* centers horizontally */
+
 
     &.open {
         transform: translateX(0);
