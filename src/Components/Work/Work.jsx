@@ -53,7 +53,11 @@ export default function Work() {
                 title: "Exterior Painting & Repairs",
                 alt: "Exterior painting project featuring freshly painted white porch railings and spindles with brick staircase"
             },
-            { src: workThree, alt: "Project 3" },
+            {
+                src: workThree,
+                title: "Basement Finishing",
+                alt: "Basement finishing project with white coffered drop ceiling tiles, recessed lighting, and freshly painted walls"
+            },
             { src: workFour, alt: "Project 4" },
             { src: workFive, alt: "Project 5" },
             { src: workSix, alt: "Project 6" },
