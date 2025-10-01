@@ -130,13 +130,6 @@ export default function Work() {
                     </p>
                 </div>
             </section>
-            <header className="work-hero">
-                <div className="work-hero__shade" />
-                <div className="work-hero__content">
-                    <h1>Our Work</h1>
-                    <p>Browse all 36 project photos</p>
-                </div>
-            </header>
 
             <p style={{padding: '8px 16px'}}>Loaded images: {items.filter(it => !!it.src).length} / {items.length}</p>
             <section className="work-gallery">
