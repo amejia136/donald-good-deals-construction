@@ -3,8 +3,8 @@ import "./Work.css";
 
 // ==== IMPORT ALL 36 IMAGES ====
 // Adjust path if your folder differs
-import workOne from "../../Assets/WorkGalleryGallery/workOne.jpg";
-import workTwo from "../../Assets/WorkGalleryGallery/workTwo.jpg";
+import workOne from "../../Assets/WorkGallery/workOne.jpg";
+import workTwo from "../../Assets/WorkGallery/workTwo.jpg";
 import workThree from "../../Assets/WorkGallery/workThree.jpg";
 import workFour from "../../Assets/WorkGallery/workFour.jpg";
 import workFive from "../../Assets/WorkGallery/workFive.jpg";
@@ -17,10 +17,10 @@ import workEleven from "../../Assets/WorkGallery/workEleven.jpg";
 import workTwelve from "../../Assets/WorkGallery/workTwelve.jpg";
 import workThirteen from "../../Assets/WorkGallery/workThirteen.jpg";
 import workFourteen from "../../Assets/WorkGallery/workFourteen.jpg";
-import workFifteen from "../../Assets/WorkGallery/workFifthteen.jpg"; // note spelling in file
+import workFifteen from "../../Assets/WorkGallery/workFifthteen.jpg.jpg"; // note spelling in file
 import workSixteen from "../../Assets/WorkGallery/workSixteen.jpg";
 import workSeventeen from "../../Assets/WorkGallery/workSeventeen.jpg";
-import workEighteen from "../../Assets/WorkGallery/workEightteen.jpg"; // note spelling in file
+import workEighteen from "../../Assets/WorkGallery/workEightteen.jpg.jpg"; // note spelling in file
 import workNineteen from "../../Assets/WorkGallery/workNineteen.jpg";
 import workTwenty from "../../Assets/WorkGallery/workTwenty.jpg";
 import workTwentyone from "../../Assets/WorkGallery/workTwentyone.jpg";
