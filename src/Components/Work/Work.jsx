@@ -12,7 +12,6 @@ import workSix from "../../Assets/WorkGallery/workSix.jpg";
 import workSeven from "../../Assets/WorkGallery/workSeven.jpg";
 import workEight from "../../Assets/WorkGallery/workEight.jpg";
 import workNine from "../../Assets/WorkGallery/workNine.jpg";
-import workTen from "../../Assets/WorkGallery/workTen.jpg";
 import workEleven from "../../Assets/WorkGallery/workEleven.jpg";
 import workTwelve from "../../Assets/WorkGallery/workTwelve.jpg";
 import workThirteen from "../../Assets/WorkGallery/workThirteen.jpg";
@@ -52,7 +51,6 @@ export default function Work() {
             { src: workSeven, alt: "Project 7" },
             { src: workEight, alt: "Project 8" },
             { src: workNine, alt: "Project 9" },
-            { src: workTen, alt: "Project 10" },
             { src: workEleven, alt: "Project 11" },
             { src: workTwelve, alt: "Project 12" },
             { src: workThirteen, alt: "Project 13" },
