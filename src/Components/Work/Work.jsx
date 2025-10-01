@@ -43,7 +43,7 @@ import workThirtyfive from "../../Assets/WorkGallery/workThirtyfive.jpg";
 export default function Work() {
     const items = useMemo(
         () => [
-            { src: workOne, alt: "Project 1" },
+            { src: workOne, alt: "Kitchen remodel with modern cabinets" },
             { src: workTwo, alt: "Project 2" },
             { src: workThree, alt: "Project 3" },
             { src: workFour, alt: "Project 4" },
