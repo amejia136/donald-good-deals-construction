@@ -116,6 +116,7 @@ export default function Work() {
                 </div>
             </header>
 
+            <p style={{padding: '8px 16px'}}>Loaded images: {items.filter(it => !!it.src).length} / {items.length}</p>
             <section className="work-gallery">
                 {items.map((it, i) => (
                     <button
