@@ -43,7 +43,11 @@ import workThirtyfive from "../../Assets/WorkGallery/workThirtyfive.jpg";
 export default function Work() {
     const items = useMemo(
         () => [
-            { src: workOne, alt: "Kitchen remodel with modern cabinets" },
+            {
+                src: workOne,
+                title: "Kitchen Remodeling",
+                alt: "Complete kitchen remodel featuring white raised-panel cabinetry, black granite countertops, and subway tile backsplash"
+            },
             { src: workTwo, alt: "Project 2" },
             { src: workThree, alt: "Project 3" },
             { src: workFour, alt: "Project 4" },
@@ -152,7 +156,11 @@ export default function Work() {
                     <button className="lightbox__nav lightbox__nav--prev" onClick={prev}>‹</button>
                     <img className="lightbox__img" src={items[active].src} alt={items[active].alt} />
                     <button className="lightbox__nav lightbox__nav--next" onClick={next}>›</button>
-                    <div className="lightbox__caption">{items[active].alt}</div>
+                    <div className="lightbox__caption">
+                        {items[active].title && <strong>{items[active].title}</strong>}
+                        {items[active].title && <br />}
+                        {items[active].alt}
+                    </div>
                 </div>
             )}
         </div>
