@@ -48,7 +48,11 @@ export default function Work() {
                 title: "Kitchen Remodeling",
                 alt: "Complete kitchen remodel featuring white raised-panel cabinetry, black granite countertops, and subway tile backsplash"
             },
-            { src: workTwo, alt: "Project 2" },
+            {
+                src: workTwo,
+                title: "Exterior Painting & Repairs",
+                alt: "Exterior painting project featuring freshly painted white porch railings and spindles with brick staircase"
+            },
             { src: workThree, alt: "Project 3" },
             { src: workFour, alt: "Project 4" },
             { src: workFive, alt: "Project 5" },
