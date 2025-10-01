@@ -145,8 +145,10 @@ export default function Work() {
                         aria-label={`Open image ${i + 1}`}
                     >
                         <img src={it.src} alt={it.alt} loading="lazy" />
-                        <span className="work-card__title"><strong>{it.title}</strong></span>
-                        <span className="work-card__caption">{it.alt}</span>
+                        <div className="work-card__text">
+                            {it.title && <h3 className="work-card__title">{it.title}</h3>}
+                            <p className="work-card__caption">{it.alt}</p>
+                        </div>
                     </button>
                 ))}
             </section>
