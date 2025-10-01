@@ -17,10 +17,10 @@ import workEleven from "../../Assets/WorkGallery/workEleven.jpg";
 import workTwelve from "../../Assets/WorkGallery/workTwelve.jpg";
 import workThirteen from "../../Assets/WorkGallery/workThirteen.jpg";
 import workFourteen from "../../Assets/WorkGallery/workFourteen.jpg";
-import workFifteen from "../../Assets/WorkGallery/workFifthteen.jpg"; // note spelling in file
+import workFifteen from "../../Assets/WorkGallery/workFifteen.jpg";
 import workSixteen from "../../Assets/WorkGallery/workSixteen.jpg";
 import workSeventeen from "../../Assets/WorkGallery/workSeventeen.jpg";
-import workEighteen from "../../Assets/WorkGallery/workEightteen.jpg."; // note spelling in file
+import workEighteen from "../../Assets/WorkGallery/workEighteen.jpg";
 import workNineteen from "../../Assets/WorkGallery/workNineteen.jpg";
 import workTwenty from "../../Assets/WorkGallery/workTwenty.jpg";
 import workTwentyone from "../../Assets/WorkGallery/workTwentyone.jpg";
