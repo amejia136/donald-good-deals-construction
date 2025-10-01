@@ -1,4 +1,4 @@
-/* ===== PAGE WRAPPER ===== */
+/* ===== Base Page ===== */
 .work-page {
     font-family: 'Montserrat', sans-serif;
     background: #fff;
@@ -6,13 +6,12 @@
     margin-bottom: 6rem;
 }
 
-/* ===== HERO SECTION ===== */
+/* ===== Hero ===== */
 .work-hero {
     position: relative;
     height: 280px;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -20,109 +19,83 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.35));
+    background: linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.35));
     pointer-events: none;
 }
 
 .work-yellow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 78%;
-    height: 100%;
-    background: #F5D014;
-    opacity: 0.5;
+    position: absolute; inset: 0 auto 0 0; width: 78%;
+    background: #F5D014; opacity: .5;
     clip-path: polygon(0 0, 88% 0, 65% 100%, 0% 100%);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+    box-shadow: 0 6px 20px rgba(0,0,0,.22);
     z-index: 1;
 }
+.work-content { position: relative; z-index: 2; padding: 1.2rem 1.1rem; color: #111; }
+.work-title   { margin: 0 0 .4rem; font-weight: 800; font-size: 1.6rem; letter-spacing: .5px; }
+.work-subtitle{ margin: 0 0 .6rem; font-size: .95rem; font-weight: 520; line-height: 1.3; }
+.work-blurb   { margin: 0; max-width: 36ch; font-size: .92rem; line-height: 1.35; }
 
-.work-content {
-    position: relative;
-    z-index: 2;
-    padding: 1.2rem 1.1rem;
-    color: #111;
-}
-
-.work-title {
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    margin: 0 0 0.4rem 0;
-    font-size: 1.6rem;
-}
-
-.work-subtitle {
-    color: #222;
-    font-size: 0.95rem;
-    font-weight: 510;
-    line-height: 1.3;
-    margin: 0 0 0.8rem 0;
-}
-
-.work-blurb {
-    color: #111;
-    font-size: 0.92rem;
-    line-height: 1.35;
-    max-width: 36ch;
-}
-
-/* ===== BEFORE/AFTER GALLERY ===== */
-.work-gallery {
-    padding: 2rem 1.25rem 3rem;
-    background: #fff;
-}
-
-.wa-label {
+/* ===== Gallery ===== */
+.gallery { padding: 1.7rem 1.25rem 3rem; }
+.gallery-title {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 2rem;
-    letter-spacing: 0.5px;
-    margin: 1.25rem 0 1rem;
-    text-transform: uppercase;
-    text-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
-
-.wa-card {
-    max-width: 560px;
-    margin: 0 auto;
-    border-radius: 0.8rem;
-    overflow: hidden;
-    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
-    background: #f7f7f7;
-}
-
-.wa-image {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    display: block;
-}
-
-.wa-arrows {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 560px;
-    margin: 0.75rem auto 2rem;
-    padding: 0 1rem;
-}
-
-.nav-btn {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    border: 2px solid #111;
-    background: #fff;
-    color: #111;
     font-size: 1.6rem;
-    line-height: 1;
-    display: grid;
-    place-items: center;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-    cursor: pointer;
-    transition: transform 0.15s ease, background 0.2s ease;
+    letter-spacing: .5px;
+    margin: .3rem 0 1.1rem;
+    text-transform: uppercase;
+    text-shadow: 0 4px 8px rgba(0,0,0,.12);
 }
 
-.nav-btn:active { transform: scale(0.96); }
-.nav-btn:hover  { background: #f5d014; }
+/* Masonry layout: great on mobile, short scroll */
+.masonry { column-count: 2; column-gap: 12px; }
+@media (min-width: 520px) { .masonry { column-count: 3; } }
+@media (min-width: 900px) { .masonry { column-count: 4; } }
+
+.g-card {
+    break-inside: avoid;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 10px 22px rgba(0,0,0,.12);
+    margin: 0 0 12px;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+.g-img { display: block; width: 100%; height: auto; }
+.g-caption {
+    padding: 8px 10px 10px;
+    font-size: 12px;
+    color: #111;
+    opacity: .85;
+}
+
+/* ===== Lightbox ===== */
+.lightbox {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,.92);
+    display: grid;
+    grid-template-columns: 64px 1fr 64px;
+    align-items: center;
+    z-index: 9999;
+}
+.lb-figure { margin: 0; padding: 0 8px; text-align: center; }
+.lb-img {
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(0,0,0,.5);
+}
+.lb-cap { color: #fff; padding-top: 10px; font-size: 14px; }
+.lb-close {
+    position: absolute; top: 10px; right: 12px;
+    width: 38px; height: 34px;
+    border: none; border-radius: 10px;
+    background: rgba(255,255,255,.15); color: #fff; font-size: 18px;
+}
+.lb-nav {
+    border: none; background: transparent; color: #fff;
+    font-size: 48px; height: 56px; width: 56px; border-radius: 50%;
+    justify-self: center;
+}
+.lb-prev { grid-column: 1; }
+.lb-next { grid-column: 3; }
