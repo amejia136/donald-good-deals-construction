@@ -13,6 +13,7 @@ import workSix from "../../Assets/WorkGallery/workSix.jpg";
 import workSeven from "../../Assets/WorkGallery/workSeven.jpg";
 import workEight from "../../Assets/WorkGallery/workEight.jpg";
 import workNine from "../../Assets/WorkGallery/workNine.jpg";
+import workTen from "../../Assets/WorkGallery/workTen.jpg";
 import workEleven from "../../Assets/WorkGallery/workEleven.jpg";
 import workTwelve from "../../Assets/WorkGallery/workTwelve.jpg";
 import workThirteen from "../../Assets/WorkGallery/workThirteen.jpg";
@@ -38,7 +39,6 @@ import workThirtytwo from "../../Assets/WorkGallery/workThirtytwo.jpg";
 import workThirtythree from "../../Assets/WorkGallery/workThirtythree.jpg";
 import workThirtyfour from "../../Assets/WorkGallery/workThirtyfour.jpg";
 import workThirtyfive from "../../Assets/WorkGallery/workThirtyfive.jpg";
-import workThirtysix from "../../Assets/WorkGallery/workThirtysix.jpg";
 
 export default function Work() {
     const items = useMemo(
@@ -52,6 +52,7 @@ export default function Work() {
             { src: workSeven, alt: "Project 7" },
             { src: workEight, alt: "Project 8" },
             { src: workNine, alt: "Project 9" },
+            { src: workTen, alt: "Project 10" },
             { src: workEleven, alt: "Project 11" },
             { src: workTwelve, alt: "Project 12" },
             { src: workThirteen, alt: "Project 13" },
@@ -77,7 +78,6 @@ export default function Work() {
             { src: workThirtythree, alt: "Project 33" },
             { src: workThirtyfour, alt: "Project 34" },
             { src: workThirtyfive, alt: "Project 35" },
-            { src: workThirtysix, alt: "Project 36" },
         ],
         []
     );
