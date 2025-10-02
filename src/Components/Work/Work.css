@@ -179,4 +179,12 @@
 .lightbox__nav--prev { left: 16px; }
 .lightbox__nav--next { right: 16px; }
 
-.lightbox__close:active, .lightbox__nav:active { transform: translateY(-50%) scale(.96); }
+
+.lightbox__close:active {
+    transform: scale(.96);
+}
+
+.lightbox__nav:active {
+    transform: translateY(-50%) scale(.96);
+}
+

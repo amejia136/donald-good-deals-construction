@@ -114,8 +114,8 @@
     );
     color: #111;
     text-align: left;
-    word-wrap: break-word;       /* allow long words to wrap */
-    overflow-wrap: break-word;   /* ensure wrapping on all browsers */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .face-card-title {
