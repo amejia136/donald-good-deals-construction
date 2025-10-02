@@ -40,6 +40,12 @@
     color: #111;
 }
 
+.our-services-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
 .work-title {
     font-weight: 800;
     letter-spacing: 0.5px;
