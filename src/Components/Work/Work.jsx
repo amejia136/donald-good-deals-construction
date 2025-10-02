@@ -286,8 +286,11 @@ export default function Work() {
                 </div>
             </section>
 
-            <p style={{padding: '8px 16px'}}>Loaded images: {items.filter(it => !!it.src).length} / {items.length}</p>
-            <h2 className="our-work-title">Photo Gallery</h2>
+            <section className="our-gallery">
+                <h2 className="our-gallery-title">Photo Gallery</h2>
+            </section>
+
+
             <section className="work-gallery">
                 {items.map((it, i) => (
                     <button
@@ -316,6 +319,7 @@ export default function Work() {
                         {items[active].title && <br />}
                         {items[active].alt}
                     </div>
+                    <p style={{padding: '8px 16px'}}>Loaded images: {items.filter(it => !!it.src).length} / {items.length}</p>
                 </div>
             )}
         </div>
