@@ -179,16 +179,60 @@ export default function Work() {
                 alt: "Drywall finishing in progress during a full room renovation, preparing walls for paint and fixtures."
             },
 
-            { src: workTwentysix, alt: "Project 26" },
-            { src: workTwentyseven, alt: "Project 27" },
-            { src: workTwentyeight, alt: "Project 28" },
-            { src: workTwentynine, alt: "Project 29" },
-            { src: workThirty, alt: "Project 30" },
-            { src: workThirtyone, alt: "Project 31" },
-            { src: workThirtytwo, alt: "Project 32" },
-            { src: workThirtythree, alt: "Project 33" },
-            { src: workThirtyfour, alt: "Project 34" },
-            { src: workThirtyfive, alt: "Project 35" },
+            {
+                src: workTwentysix,
+                title: "Flat Roof Repair",
+                alt: "Commercial flat roof repair with new protective layers and sealed seams."
+            },
+            {
+                src: workTwentyseven,
+                title: "Kitchen Remodeling",
+                alt: "Modern kitchen remodel with white cabinetry, subway tile backsplash, and wood-look flooring."
+            },
+
+            {
+                src: workTwentyeight,
+                title: "Interior Painting",
+                alt: "Freshly painted room with bold red accent walls, crisp white trim, and light flooring."
+            },
+            {
+                src: workTwentynine,
+                title: "Bathroom Remodeling",
+                alt: "Modern shower remodel featuring wood-look tile, matte black fixtures, and recessed shelving."
+            },
+
+            {
+                src: workThirty,
+                title: "Basement Finishing",
+                alt: "Basement remodel in progress with fresh drywall, primed walls, and flooring preparation."
+            },
+            {
+                src: workThirtyone,
+                title: "Kitchen Remodeling",
+                alt: "Finished kitchen remodel with white cabinetry, subway tile backsplash, and wood-look flooring."
+            },
+            {
+                src: workThirtytwo,
+                title: "Kitchen Remodeling",
+                alt: "Kitchen remodel in progress with green accent wall, recessed lighting, and framed pass-through."
+            },
+
+            {
+                src: workThirtythree,
+                title: "Commercial Painting",
+                alt: "Commercial block wall prepared for painting, showing gray masonry surface before finish coat."
+            },
+            {
+                src: workThirtyfour,
+                title: "Basement Finishing",
+                alt: "Basement remodel in progress with new flooring installation over fresh underlayment."
+            },
+            {
+                src: workThirtyfive,
+                title: "Exterior Remodeling",
+                alt: "Residential front entry remodel with new black door, trim, and wood railings."
+            },
+
         ],
         []
     );
