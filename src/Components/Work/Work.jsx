@@ -287,8 +287,8 @@ export default function Work() {
             </section>
 
             <p style={{padding: '8px 16px'}}>Loaded images: {items.filter(it => !!it.src).length} / {items.length}</p>
+            <h2 className="our-work-title">Photo Gallery</h2>
             <section className="work-gallery">
-                <h2 className="our-work-title">Photo Gallery</h2>
                 {items.map((it, i) => (
                     <button
                         className="work-card"
