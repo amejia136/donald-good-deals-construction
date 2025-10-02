@@ -58,28 +58,127 @@ export default function Work() {
                 title: "Basement Finishing",
                 alt: "Basement finishing project with white coffered drop ceiling tiles, recessed lighting, and freshly painted walls"
             },
-            { src: workFour, alt: "Project 4" },
-            { src: workFive, alt: "Project 5" },
-            { src: workSix, alt: "Project 6" },
-            { src: workSeven, alt: "Project 7" },
-            { src: workEight, alt: "Project 8" },
-            { src: workNine, alt: "Project 9" },
-            { src: workTen, alt: "Project 10" },
-            { src: workEleven, alt: "Project 11" },
-            { src: workTwelve, alt: "Project 12" },
-            { src: workThirteen, alt: "Project 13" },
-            { src: workFourteen, alt: "Project 14" },
-            { src: workFifteen, alt: "Project 15" },
-            { src: workSixteen, alt: "Project 16" },
-            { src: workSeventeen, alt: "Project 17" },
-            { src: workEighteen, alt: "Project 18" },
-            { src: workNineteen, alt: "Project 19" },
-            { src: workTwenty, alt: "Project 20" },
-            { src: workTwentyone, alt: "Project 21" },
-            { src: workTwentytwo, alt: "Project 22" },
-            { src: workTwentythree, alt: "Project 23" },
-            { src: workTwentyfour, alt: "Project 24" },
-            { src: workTwentyfive, alt: "Project 25" },
+            {
+                src: workFour,
+                title: "Exterior Painting",
+                alt: "Complete exterior house painting in rich brown with contrasting dark trim."
+            },
+            {
+                src: workFive,
+                title: "Power Washing",
+                alt: "Restoring a home's exterior siding with professional power washing to remove dirt and mildew."
+            },
+            {
+                src: workSix,
+                title: "Bathroom Remodeling",
+                alt: "Bathroom renovation in progress with large wall tiles being installed for a modern finish."
+            },
+            {
+                src: workSeven,
+                title: "Exterior Painting",
+                alt: "Fresh exterior house painting in bold blue with crisp white trim for a modern look."
+            },
+
+            {
+                src: workEight,
+                title: "Exterior Painting",
+                alt: "Full exterior repaint in rich reddish-brown with matching trim for a refreshed curb appeal."
+            },
+
+            {
+                src: workNine,
+                title: "Bathroom Remodeling",
+                alt: "Modern bathroom remodel featuring a sleek vanity, LED mirror, and floating wall shelves."
+            },
+
+            {
+                src: workTen,
+                title: "Custom Shed Construction",
+                alt: "Framing and exterior sheathing in progress during a custom shed build."
+            },
+            {
+                src: workEleven,
+                title: "Custom Shed Construction",
+                alt: "Completed custom-built shed with painted siding, doors, and shingle roof."
+            },
+
+            {
+                src: workTwelve,
+                title: "Roof Replacement",
+                alt: "Roofing crew removing old shingles during a full roof replacement project."
+            },
+            {
+                src: workThirteen,
+                title: "Roof Replacement",
+                alt: "Completed roof installation with new gray shingles providing a clean and durable finish."
+            },
+
+            {
+                src: workFourteen,
+                title: "Interior Carpentry",
+                alt: "Custom wainscoting and trim work along a staircase with dark hardwood steps."
+            },
+            {
+                src: workFifteen,
+                title: "Interior Carpentry",
+                alt: "New railing installation with wood posts and white balusters for a clean, safe finish."
+            },
+
+            {
+                src: workSixteen,
+                title: "Roof Installation",
+                alt: "New roof installation in progress with underlayment and shingle materials prepared."
+            },
+            {
+                src: workSeventeen,
+                title: "Bathroom Remodeling",
+                alt: "Bathroom upgrade with safety grab bars installed for added support and accessibility."
+            },
+
+            {
+                src: workEighteen,
+                title: "Garage Renovation",
+                alt: "Garage makeover with new epoxy flooring and gray walls accented by a bold red stripe."
+            },
+            {
+                src: workNineteen,
+                title: "Drywall Installation",
+                alt: "Drywall installation and finishing work to prepare interior walls for painting."
+            },
+
+            {
+                src: workTwenty,
+                title: "Exterior Painting",
+                alt: "Front entry refresh with updated trim, painted doorframe, and clean brick steps."
+            },
+            {
+                src: workTwentyone,
+                title: "Exterior Painting",
+                alt: "Side view of a full house repaint in bold blue siding with white trim and wood fencing."
+            },
+
+            {
+                src: workTwentytwo,
+                title: "Commercial Painting",
+                alt: "Exterior commercial building painted in gray for a clean and professional look."
+            },
+            {
+                src: workTwentythree,
+                title: "Garage Flooring",
+                alt: "Residential garage upgraded with durable epoxy flooring in a speckled gray finish."
+            },
+
+            {
+                src: workTwentyfour,
+                title: "Bathroom Remodeling",
+                alt: "Modern bathroom remodel with wood-look wall tile, matte black fixtures, and walk-in shower base."
+            },
+            {
+                src: workTwentyfive,
+                title: "Drywall Installation",
+                alt: "Drywall finishing in progress during a full room renovation, preparing walls for paint and fixtures."
+            },
+
             { src: workTwentysix, alt: "Project 26" },
             { src: workTwentyseven, alt: "Project 27" },
             { src: workTwentyeight, alt: "Project 28" },
