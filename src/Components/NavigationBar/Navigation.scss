@@ -100,6 +100,9 @@ $white: white;
     text-align: center;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.4);
 
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
 
     &.open {
         transform: translateX(0);
