@@ -88,7 +88,7 @@ $white: white;
     position: fixed;
     top: 0;
     right: 0;
-    width: 80%;
+    width: 100%;
     max-width: 300px;
     height: 100vh;
     background: black;
@@ -99,7 +99,6 @@ $white: white;
     padding: 2rem 1rem;
     text-align: center;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.4);
-
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 
