@@ -96,12 +96,13 @@ $white: white;
     transform: translateX(100%);
     transition: transform 0.3s ease;
     z-index: 1000;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 2rem;
     text-align: center;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.4);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-
+    display: flex;
+    flex-direction: column;
 
     &.open {
         transform: translateX(0);
