@@ -144,6 +144,7 @@ $white: white;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 5.8rem;
+    flex-shrink: 0;
 
     li {
         margin: 1.4rem 0;
@@ -155,6 +156,7 @@ $white: white;
         a {
             color: $white;
             text-decoration: none;
+            white-space: nowrap;
         }
     }
 }
