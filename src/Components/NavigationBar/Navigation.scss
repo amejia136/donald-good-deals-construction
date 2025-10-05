@@ -89,24 +89,30 @@ $white: white;
     top: 0;
     right: 0;
     width: 80%;
-    max-width: 300px;
+    max-width: 350px;
     height: 100vh;
-    background: black;
-    color: $white;
+    background: #111; // your existing background color
+    color: #fff;
+    z-index: 2000;
     transform: translateX(100%);
-    transition: transform 0.3s ease;
-    z-index: 1000;
-    padding: 2rem 1rem;
-    text-align: center;
-    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.4);
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-
-
-    &.open {
-        transform: translateX(0);
-    }
+    transition: transform 0.3s ease-in-out;
+    overflow-y: auto; /* <-- enables vertical scroll */
+    -webkit-overflow-scrolling: touch; /* smooth scroll for mobile */
 }
+
+.menu-overlay.open {
+    transform: translateX(0);
+}
+
+/* Optional: style the scrollbar for mobile/desktop */
+.menu-overlay::-webkit-scrollbar {
+    width: 6px;
+}
+.menu-overlay::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
 
 .menu-backdrop {
     position: fixed;
