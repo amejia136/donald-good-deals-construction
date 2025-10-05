@@ -93,7 +93,7 @@ function Home() {
 
             {/* ===== REST OF HOME ===== */}
             <div className="rest-of-home">
-                <h2 className="rest-title">Making Home Projects Easier</h2>
+                <h2 className="rest-title">Hello Home Projects Easier</h2>
                 <p className="rest-description">
                     From start to finish, we make home improvement stress-free. Whether it's a single room
                     upgrade or a full remodel, our process is designed to keep your vision, budget, and
