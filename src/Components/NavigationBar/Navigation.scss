@@ -18,12 +18,14 @@ $white: white;
         background: var(--nav-gradient);
         color: $white;
         position: relative;
+        gap: 8px; // Add spacing between items
     }
 
     &-logo {
         width: 110px;
         height: auto;
         margin-left: -24px;
+        flex-shrink: 0; // Prevent logo from shrinking
     }
 
     &-title {
@@ -37,6 +39,8 @@ $white: white;
         flex-direction: column;
         align-items: center;
         margin-left: 16px;
+        flex: 1; // Allow title to shrink if needed
+        min-width: 0; // Important for flex shrinking
 
         span {
             display: block;
@@ -72,8 +76,10 @@ $white: white;
     cursor: pointer;
     height: 26px;
     width: 34px;
-    margin-left: auto;
+    margin-left: 8px; // Changed from auto
     margin-top: 4px;
+    flex-shrink: 0; // Prevent hamburger from shrinking
+    z-index: 10; // Ensure it stays on top
 
     .bar {
         width: 100%;
@@ -81,6 +87,61 @@ $white: white;
         background-color: $white;
         border-radius: 2px;
         transition: all 0.3s ease;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .navbar {
+        &-logo {
+            width: 80px;
+            margin-left: -12px;
+        }
+
+        &-title {
+            font-size: 24px;
+            margin-left: 8px;
+        }
+
+        &-subtitle {
+            font-size: 0.75rem;
+
+            .line {
+                width: 30px;
+                margin: 0 6px;
+            }
+        }
+    }
+
+    .menu-icon {
+        width: 30px;
+        height: 22px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .navbar {
+        padding: 0.1rem 0.5rem;
+
+        &-logo {
+            width: 70px;
+            margin-left: -8px;
+        }
+
+        &-title {
+            font-size: 20px;
+            margin-left: 4px;
+        }
+
+        &-subtitle {
+            font-size: 0.65rem;
+
+            .line {
+                width: 25px;
+                margin: 0 4px;
+            }
+        }
     }
 }
 
