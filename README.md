@@ -2,7 +2,7 @@
 
 This is the official website for **Donald Good Deals Construction Corp.**, built with React and deployed on Netlify.
 
-**Live Website:** [https://donaldgooddeals.netlify.app](https://donaldgooddeals.netlify.app)  
+**Live Website:** [https://donaldgooddeals.com](https://donaldgooddeals.com)  
 
 > **Note:** This website is designed for **mobile devices only**.  
 > For the best experience, open the link on your phone or resize your browser to a mobile width.
