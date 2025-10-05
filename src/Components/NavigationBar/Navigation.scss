@@ -18,14 +18,14 @@ $white: white;
         background: var(--nav-gradient);
         color: $white;
         position: relative;
-        gap: 8px; // Add spacing between items
+        gap: 8px;
     }
 
     &-logo {
         width: 110px;
         height: auto;
         margin-left: -24px;
-        flex-shrink: 0; // Prevent logo from shrinking
+        flex-shrink: 0;
     }
 
     &-title {
@@ -39,8 +39,8 @@ $white: white;
         flex-direction: column;
         align-items: center;
         margin-left: 16px;
-        flex: 1; // Allow title to shrink if needed
-        min-width: 0; // Important for flex shrinking
+        flex: 1;
+        min-width: 0;
 
         span {
             display: block;
@@ -78,9 +78,8 @@ $white: white;
     width: 34px;
     margin-left: 8px;
     margin-top: 4px;
-    flex-shrink: 0; // Prevent hamburger from shrinking
-    z-index: 10; // Ensure it stays on top
-
+    flex-shrink: 0;
+    z-index: 10;
     .bar {
         width: 100%;
         height: 4px;
