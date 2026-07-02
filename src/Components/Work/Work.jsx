@@ -320,8 +320,8 @@ export default function Work() {
             },
             {
                 src: workFifty,
-                title: "General Home Remodeling",
-                alt: "Residential remodeling project showing quality workmanship and updated home finishes."
+                title: "Hardwood Flooring Installation",
+                alt: "Newly installed hardwood flooring with a rich natural finish, professionally fitted throughout the open-concept kitchen and living area for a seamless, polished appearance."
             },
 
         ],
