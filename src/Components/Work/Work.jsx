@@ -53,6 +53,7 @@ import workFortysix from "../../Assets/WorkGallery/workFortysix.jpg";
 import workFortyseven from "../../Assets/WorkGallery/workFortyseven.jpg";
 import workFortyeight from "../../Assets/WorkGallery/workFortyeight.jpg";
 import workFortynine from "../../Assets/WorkGallery/workFortynine.jpg";
+import workFifty from "../../Assets/WorkGallery/workFifty.jpg";
 
 export default function Work() {
     const items = useMemo(
@@ -314,6 +315,11 @@ export default function Work() {
             },
             {
                 src: workFortynine,
+                title: "General Home Remodeling",
+                alt: "Residential remodeling project showing quality workmanship and updated home finishes."
+            },
+            {
+                src: workFifty,
                 title: "General Home Remodeling",
                 alt: "Residential remodeling project showing quality workmanship and updated home finishes."
             },
