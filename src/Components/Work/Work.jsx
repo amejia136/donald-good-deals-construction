@@ -39,6 +39,20 @@ import workThirtytwo from "../../Assets/WorkGallery/workThirtytwo.jpg";
 import workThirtythree from "../../Assets/WorkGallery/workThirtythree.jpg";
 import workThirtyfour from "../../Assets/WorkGallery/workThirtyfour.jpg";
 import workThirtyfive from "../../Assets/WorkGallery/workThirtyfive.jpg";
+import workThirtysix from "../../Assets/WorkGallery/workThirtysix.jpg";
+import workThirtyseven from "../../Assets/WorkGallery/workThirtyseven.jpg";
+import workThirtyeight from "../../Assets/WorkGallery/workThirtyeight.jpg";
+import workThirtynine from "../../Assets/WorkGallery/workThirtynine.jpg";
+import workForty from "../../Assets/WorkGallery/workForty.jpg";
+import workFortyone from "../../Assets/WorkGallery/workFortyone.jpg";
+import workFortytwo from "../../Assets/WorkGallery/workFortytwo.jpg";
+import workFortythree from "../../Assets/WorkGallery/workFortythree.jpg";
+import workFortyfour from "../../Assets/WorkGallery/workFortyfour.jpg";
+import workFortyfive from "../../Assets/WorkGallery/workFortyfive.jpg";
+import workFortysix from "../../Assets/WorkGallery/workFortysix.jpg";
+import workFortyseven from "../../Assets/WorkGallery/workFortyseven.jpg";
+import workFortyeight from "../../Assets/WorkGallery/workFortyeight.jpg";
+import workFortynine from "../../Assets/WorkGallery/workFortynine.jpg";
 
 export default function Work() {
     const items = useMemo(
@@ -231,6 +245,77 @@ export default function Work() {
                 src: workThirtyfive,
                 title: "Exterior Remodeling",
                 alt: "Residential front entry remodel with new black door, trim, and wood railings."
+            },
+
+            {
+                src: workThirtysix,
+                title: "Exterior Remodeling",
+                alt: "Residential exterior improvement project showing updated finishes and clean curb appeal."
+            },
+            {
+                src: workThirtyseven,
+                title: "Interior Remodeling",
+                alt: "Interior renovation work completed with clean finishes and detailed craftsmanship."
+            },
+            {
+                src: workThirtyeight,
+                title: "Home Improvement",
+                alt: "Residential home improvement project showing professional repair and remodeling work."
+            },
+            {
+                src: workThirtynine,
+                title: "Exterior Repairs",
+                alt: "Exterior repair work completed to improve the home's appearance and durability."
+            },
+            {
+                src: workForty,
+                title: "Interior Painting",
+                alt: "Fresh interior painting project with clean lines and a smooth finished appearance."
+            },
+            {
+                src: workFortyone,
+                title: "Carpentry & Trim Work",
+                alt: "Custom carpentry and trim work completed for a polished interior finish."
+            },
+            {
+                src: workFortytwo,
+                title: "Bathroom Remodeling",
+                alt: "Bathroom remodeling project featuring updated surfaces and a cleaner modern look."
+            },
+            {
+                src: workFortythree,
+                title: "Kitchen Remodeling",
+                alt: "Kitchen improvement project with updated finishes and careful installation work."
+            },
+            {
+                src: workFortyfour,
+                title: "Flooring Installation",
+                alt: "New flooring installation completed for a refreshed and durable interior space."
+            },
+            {
+                src: workFortyfive,
+                title: "Drywall & Painting",
+                alt: "Drywall and painting work completed to prepare the space with a smooth finished surface."
+            },
+            {
+                src: workFortysix,
+                title: "Roofing & Exterior Work",
+                alt: "Exterior roofing and repair project completed to improve protection and curb appeal."
+            },
+            {
+                src: workFortyseven,
+                title: "Basement Finishing",
+                alt: "Basement finishing project showing progress toward a cleaner and more usable living area."
+            },
+            {
+                src: workFortyeight,
+                title: "Deck & Outdoor Work",
+                alt: "Outdoor improvement project completed with sturdy construction and clean finishing details."
+            },
+            {
+                src: workFortynine,
+                title: "General Home Remodeling",
+                alt: "Residential remodeling project showing quality workmanship and updated home finishes."
             },
 
         ],
