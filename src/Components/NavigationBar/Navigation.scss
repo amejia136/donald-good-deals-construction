@@ -271,6 +271,7 @@ $white: white;
     background-color: $white;
     border: none;
     margin: .75rem 0;
+    flex-shrink: 0;
 }
 
 .navbar-logo {
