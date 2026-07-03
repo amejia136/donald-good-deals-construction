@@ -365,14 +365,7 @@ export default function Work() {
                         Solutions for Suffolk County
                     </p>
                     <p className="work-blurb">
-                        Our work speaks for itself. <br />
-                        From full remodels to detailed <br />
-                        repairs, we bring licensed skill <br />
-                        and personal care to every <br />
-                        home we touch. Browse our <br />
-                        past projects to see the <br />
-                        quality and dedication <br />
-                        behind what we do.
+                        Our work speaks for itself. From full remodels to detailed repairs, we bring licensed skill and personal care to every home we touch. Browse our past projects to see the quality and dedication behind what we do.
                     </p>
                 </div>
             </section>
