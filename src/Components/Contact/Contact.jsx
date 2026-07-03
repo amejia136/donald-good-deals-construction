@@ -20,13 +20,8 @@ function Contact() {
                     </p>
 
                     <p className="contact-blurb">
-                        Have questions or ready to start <br/>
-                        your project? Reach out today and <br/>
-                        our licensed team will be happy <br/>
-                        to provide a free consultation, <br/>
-                        discuss your ideas, and guide <br/>
-                        you through the next steps.
-                    </p>
+    Have questions or ready to start your project? Reach out today and our licensed team will be happy to provide a free consultation, discuss your ideas, and guide you through the next steps.
+</p>
                 </div>
             </section>
 
