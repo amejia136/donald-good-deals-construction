@@ -22,11 +22,7 @@ function Services() {
                         Solutions for Suffolk County
                     </p>
                     <p className="hero-blurb">
-                        From kitchens and bathrooms to <br />
-                        decks, fences, painting, and <br /> more. We deliver licensed, <br />
-                        high-quality results that <br />
-                        bring lasting value to <br />
-                        your home.
+                        From kitchens and bathrooms to decks, fences, painting, and more. We deliver licensed, high-quality results that bring lasting value to your home.
                     </p>
                 </div>
             </section>
