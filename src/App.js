@@ -10,6 +10,8 @@ import Work from './Components/Work/Work';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
+import ScrollToTop from "./Components/Utils/ScrollToTop";
+
 function App() {
     const [isMobileDevice, setIsMobileDevice] = useState(false);
 
@@ -31,6 +33,7 @@ function App() {
 
     return (
         <Router>
+            <ScrollToTop />
             <Navigation />
             <Routes>
                 <Route path="/" element={<Home />} />
