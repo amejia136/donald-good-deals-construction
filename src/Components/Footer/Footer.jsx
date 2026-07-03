@@ -1,19 +1,20 @@
 import React from 'react';
 import './Footer.scss';
 import logo from '../../Assets/NavigationPics/logo.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
         <footer className="footer">
             <div className="footer-container">
 
-                <a href="/" aria-label="Go to Home" target="_self" rel="noreferrer">
+                <Link to="/" aria-label="Go to Home">
                     <img
                         src={logo}
                         alt="Company Logo"
                         className="footer-logo"
                     />
-                </a>
+                </Link>
 
                 <div className="footer-section">
                     <h2 className="footer-title">OFFICE HOURS</h2>
@@ -25,9 +26,9 @@ function Footer() {
                 <div className="footer-section">
                     <h2 className="footer-title">QUICK MENU</h2>
                     <p>
-                        <a href="/" target="_self" rel="noreferrer">Home</a><br />
-                        <a href="/services" target="_self" rel="noreferrer">Services</a><br />
-                        <a href="/work" target="_self" rel="noreferrer">Our Work</a>
+                        <Link to="/">Home</Link><br />
+                        <Link to="/services">Services</Link><br />
+                        <Link to="/work">Our Work</Link>
                     </p>
                 </div>
 
