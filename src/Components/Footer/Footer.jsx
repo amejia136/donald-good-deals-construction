@@ -61,7 +61,7 @@ function Footer() {
 
                 <div className="footer-bottom">
                     <p>
-                        © 2025 Donald Good Deals Construction Corp. All rights reserved.<br />
+                        © 2026 Donald Good Deals Construction Corp. All rights reserved.<br />
                         License Number: HI-69176 — Suffolk County, NY
                     </p>
                 </div>

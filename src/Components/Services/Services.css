@@ -42,33 +42,65 @@
     z-index: 2;
     padding: 1.2rem 1.1rem;
     color: #111;
+    width: 55%;
+    max-width: 55%;
 }
 
 .hero-title {
     font-weight: 800;
     letter-spacing: 0.5px;
     margin: 0 0 0.4rem 0;
-    font-size: 1.6rem;
+    font-size: clamp(1.45rem, 7vw, 1.6rem);
 }
 
 .hero-subtitle {
     color: #222;
-    font-size: 0.95rem;
+    font-size: clamp(0.82rem, 3.6vw, 0.95rem);
     font-weight: 510;
     line-height: 1.3;
     margin: 0 0 0.8rem 0;
+    max-width: 24ch;
 }
 
 .hero-blurb {
     color: #111;
-    font-size: 0.92rem;
-    line-height: 1.35;
-    max-width: 36ch;
+    font-size: clamp(0.73rem, 3.25vw, 0.88rem);
+    line-height: 1.3;
+    max-width: 24ch;
+    overflow-wrap: break-word;
 }
 
-@media (max-width: 360px) {
-    .services-hero { height: 300px; }
-    .hero-yellow { height: 72%; }
+/* Smaller phones */
+@media (max-width: 390px) {
+    .hero-content {
+        width: 52%;
+        max-width: 52%;
+    }
+
+    .hero-subtitle,
+    .hero-blurb {
+        max-width: 22ch;
+    }
+
+    .hero-blurb {
+        font-size: 0.76rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .hero-content {
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .hero-subtitle,
+    .hero-blurb {
+        max-width: 20ch;
+    }
+
+    .hero-blurb {
+        font-size: 0.72rem;
+    }
 }
 
 /* ===== OUR SERVICES SECTION ===== */
