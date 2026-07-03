@@ -13,7 +13,7 @@
 /* ===== HERO SECTION ===== */
 .work-hero {
     position: relative;
-    height: 280px;
+    height: 330px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,14 +60,18 @@
 
 .work-blurb {
     color: #111;
-    font-size: clamp(0.73rem, 3.25vw, 0.88rem);
-    line-height: 1.3;
-    max-width: 24ch;
+    font-size: clamp(0.68rem, 3vw, 0.82rem);
+    line-height: 1.22;
+    max-width: 22ch;
     overflow-wrap: break-word;
 }
 
 /* Smaller phones */
 @media (max-width: 390px) {
+    .work-hero {
+        height: 345px;
+    }
+
     .work-content {
         width: 52%;
         max-width: 52%;
@@ -75,15 +79,20 @@
 
     .work-subtitle,
     .work-blurb {
-        max-width: 22ch;
+        max-width: 21ch;
     }
 
     .work-blurb {
-        font-size: 0.76rem;
+        font-size: 0.72rem;
+        line-height: 1.2;
     }
 }
 
 @media (max-width: 350px) {
+    .work-hero {
+        height: 360px;
+    }
+
     .work-content {
         width: 50%;
         max-width: 50%;
@@ -95,7 +104,8 @@
     }
 
     .work-blurb {
-        font-size: 0.72rem;
+        font-size: 0.68rem;
+        line-height: 1.18;
     }
 }
 
